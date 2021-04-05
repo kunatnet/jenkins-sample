@@ -4,7 +4,7 @@ metadata:
   name: jenkins-demo
   namespace: devlopment
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: jenkins-demo
